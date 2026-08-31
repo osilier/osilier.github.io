@@ -3,13 +3,12 @@ layout: default
 title: "About"
 ---
 
-# Your Name
+# Olivine Silier
 
-**Professor of Mathematics**  
-Department of Mathematics  
-University Name
+**5th year PhD Student at UC Berkeley**
+I am advised by Ruixiang Zhang and 
 
-[Email](mailto:your.email@university.edu) ·
+[Email](olivine_silier at berkeley.edu) ·
 [Google Scholar](https://scholar.google.com/) ·
 [ORCID](https://orcid.org/) ·
 [GitHub](https://github.com/YOUR-USERNAME)
