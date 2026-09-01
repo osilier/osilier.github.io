@@ -1,16 +1,18 @@
 <!-- Tab Navigation Links -->
 <div class="tab-container">
-  <button class="tab-link" onclick="openTab(event, 'resume')">Title 1</button>
-  <button class="tab-link" onclick="openTab(event, 'test')">Title 2</button>
+  <button class="tab-link" data-tab="tab-1" onclick="openTab(event, 'resume')">Title 1</button>
+  <button class="tab-link" data-tab="tab-1" onclick="openTab(event, 'test')">Title 2</button>
 </div>
 
 <!-- Tab Content Areas -->
-<div id="resume" class="tab-content">
+<div id="tab-1" class="tab-content">
   <h3>Project One Content</h3>
-  <iframe src="./resume/index.html" width="100%" height="500px"></iframe>
+  <iframe src="./resume/index.html" width="100%" height="100%"></iframe>
 </div>
 
-<div id="test" class="tab-content" style="display:none">
+<div id="tab-2" class="tab-content" style="display:none">
   <h3>Project Two Content</h3>
-  <iframe src="./test/index.html" width="100%" height="500px"></iframe>
+  <p> This is the content for the second tab section.</p> 
 </div>
+<div class="tab-container">
+
